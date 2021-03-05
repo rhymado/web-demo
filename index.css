@@ -71,5 +71,6 @@ p::selection {
 img {
   height: 150px;
   width: 150px;
+  margin: auto;
   background-color: grey;
 }

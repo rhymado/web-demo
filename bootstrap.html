@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap</title>
+    <style>
+      div div {
+        background-color: aliceblue;
+      }
+      div div div {
+        background: linear-gradient(to right, grey, goldenrod);
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .btn-custom {
+        background-color: gold;
+        border: 2px solid black;
+      }
+      .no-border {
+        border: none;
+      }
+      .no-border:active {
+        border: 5px solid rgba(109, 245, 247, 0.2);
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">col-md-8</div>
+        <div class="col-6 col-md-4">col-6 col-md-4</div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-6 col-md-4">col-6 col-md-4</div>
+        <div class="col-6 col-md-4">col-6 col-md-4</div>
+        <div class="col-6 col-md-4">col-6 col-md-4</div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-6">col-6</div>
+        <div class="col-6">col-6</div>
+      </div>
+      <div class="alert alert-primary">This is Primary Alert</div>
+      <button type="button" class="btn btn-custom">Primary</button>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn-custom no-border">Left</button>
+        <button type="button" class="btn-custom no-border">Middle</button>
+        <button type="button" class="btn-custom no-border">Right</button>
+      </div>
+    </div>
+  </body>
+</html>
